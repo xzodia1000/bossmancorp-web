@@ -3143,12 +3143,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"focus-lock@npm:^0.11.2":
-  version: 0.11.4
-  resolution: "focus-lock@npm:0.11.4"
+"focus-lock@npm:^0.11.5":
+  version: 0.11.5
+  resolution: "focus-lock@npm:0.11.5"
   dependencies:
     tslib: ^2.0.3
-  checksum: 039c05600626d5a7b725e38ca10754c45c4f5be5d23d4371f91ae67982d5878dc8a3f3d7be0867bcda7ce34e98c39ddbe90d8a6c06d1b0ace69e1d4c6d12422a
+  checksum: c1d38b0eb4448f06155b0820f153a9e3e3910f6777b1129b4124ec7d81d911b86adb20049091c6ee58685b2db5f48678c87755e66d4c69bd8a1a8a15de050796
   languageName: node
   linkType: hard
 
@@ -4545,11 +4545,11 @@ __metadata:
   linkType: hard
 
 "react-focus-lock@npm:^2.9.2":
-  version: 2.9.2
-  resolution: "react-focus-lock@npm:2.9.2"
+  version: 2.9.3
+  resolution: "react-focus-lock@npm:2.9.3"
   dependencies:
     "@babel/runtime": ^7.0.0
-    focus-lock: ^0.11.2
+    focus-lock: ^0.11.5
     prop-types: ^15.6.2
     react-clientside-effect: ^1.2.6
     use-callback-ref: ^1.3.0
@@ -4560,7 +4560,7 @@ __metadata:
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: f8db4d64aa5c983d15e80d0fd86d1d649e33744e7b6b70babb08c95f7828e38c2cce7068c0007cf3263eec8b738ebd317d24a613df7f75b472bad6529cf8d6b6
+  checksum: 4511bbbfa7e0b126daac1bacf83cd1423c6641c742fa17e196daa4089718655cfab86a1f1975164b3823dbfed5c20c33c7eb5092190c9812f591dc902e99af24
   languageName: node
   linkType: hard
 
