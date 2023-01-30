@@ -31,10 +31,10 @@ const Navigation = () => {
 
   return (
     <Flex gap={10}>
-      <Box onClick={onPrevious} cursor="pointer">
+      <Box onClick={onNext} cursor="pointer">
         <IconArrowBigLeft size={50} />
       </Box>
-      <Box onClick={onNext} cursor="pointer">
+      <Box onClick={onPrevious} cursor="pointer">
         <IconArrowBigRight size={50} />
       </Box>
     </Flex>

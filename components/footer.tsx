@@ -12,7 +12,7 @@ const Footer = () => {
         <Flex direction="column" gap={8}>
           <Flex gap={5}>
             <Flex direction="column" gap={2}>
-              <Heading fontSize={{ base: 'sm', md: 'lg' }}>Bossman Corp</Heading>
+              <Heading size={{ base: 'sm', md: 'lg' }}>Bossman Corp</Heading>
               <Flex alignItems="center" gap={1}>
                 <IconMail size={20} />
                 <Description>bossmancorp@gmail.com</Description>
@@ -24,7 +24,7 @@ const Footer = () => {
             </Flex>
             <Spacer />
             <Flex direction="column" gap={2}>
-              <Heading fontSize={{ base: 'sm', md: 'lg' }}>Heriot-Watt University</Heading>
+              <Heading size={{ base: 'sm', md: 'lg' }}>Heriot-Watt University</Heading>
               <Description>Knowledge Village</Description>
               <Description>Dubai, UAE</Description>
             </Flex>

@@ -1,23 +1,13 @@
 export const team = [
   {
     name: 'Nour',
-    title: 'Project Lead',
-    image: ''
-  },
-  {
-    name: 'Nidal Arafath',
-    title: 'Web Lead',
-    image: ''
+    title: 'Project & Backend Lead',
+    image: '/avatars/nour.jpg'
   },
   {
     name: 'Nemr',
-    title: 'Frontend Developer',
-    image: ''
-  },
-  {
-    name: 'Zayd Aslam',
-    title: 'tbd',
-    image: '/avatars/zayd.png'
+    title: 'Backend Developer',
+    image: '/avatars/nemr.png'
   },
   {
     name: 'Suhail Ahmed',
@@ -26,22 +16,32 @@ export const team = [
   },
   {
     name: 'Yousuf Aboushady',
-    title: 'tbd',
+    title: 'QA Team',
     image: '/avatars/yousuf.png'
   },
   {
     name: 'Jad Fakhoury',
-    title: 'tbd',
+    title: 'Office Boy',
     image: '/avatars/jad.png'
   },
   {
     name: 'Danish',
-    title: 'tbd',
-    image: ''
+    title: '',
+    image: '/avatars/danish.png'
   },
   {
     name: 'Hassan Ahmed',
-    title: 'tbd',
+    title: '',
     image: '/avatars/hassan.png'
+  },
+  {
+    name: 'Zayd Aslam',
+    title: 'Developer',
+    image: '/avatars/zayd.png'
+  },
+  {
+    name: 'Nidal Arafath',
+    title: 'Web Lead',
+    image: '/avatars/nidal.jpg'
   }
 ];
