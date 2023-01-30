@@ -1,5 +1,6 @@
 import { Flex, Box, Container, Heading, Text, Spacer, Divider, chakra } from '@chakra-ui/react';
-import { IconMail, IconPhone } from '@tabler/icons-react';
+import { IconExternalLink, IconMail, IconPhone } from '@tabler/icons-react';
+import Link from 'next/link';
 const Footer = () => {
   const Description = chakra(Text, {
     baseStyle: {
@@ -13,10 +14,13 @@ const Footer = () => {
           <Flex gap={5}>
             <Flex direction="column" gap={2}>
               <Heading size={{ base: 'sm', md: 'lg' }}>Bossman Corp</Heading>
-              <Flex alignItems="center" gap={1}>
-                <IconMail size={20} />
-                <Description>bossmancorp@gmail.com</Description>
-              </Flex>
+              <Link href="mailto:bossmancorp@protonmail.com" target="_blank" passHref>
+                <Flex alignItems="center" gap={1} _hover={{ color: 'accent_purple' }}>
+                  <IconMail size={20} />
+                  <Description>bossmancorp@protonmail.com</Description>
+                  <IconExternalLink size={20} />
+                </Flex>
+              </Link>
               <Flex alignItems="center" gap={1}>
                 <IconPhone size={20} />
                 <Description>+971 550000000</Description>
