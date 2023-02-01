@@ -1,12 +1,12 @@
 export const team = [
   {
     name: 'Nour',
-    title: 'Project & Backend Lead',
+    title: 'Project & Full-Stack Lead',
     image: '/avatars/nour.jpg'
   },
   {
     name: 'Nemr',
-    title: 'Backend Developer',
+    title: 'Full-Stack Developer',
     image: '/avatars/nemr.png'
   },
   {
@@ -16,7 +16,7 @@ export const team = [
   },
   {
     name: 'Yousuf Aboushady',
-    title: 'QA Team',
+    title: 'QA Tester',
     image: '/avatars/yousuf.png'
   },
   {
@@ -26,7 +26,7 @@ export const team = [
   },
   {
     name: 'Danish',
-    title: '',
+    title: 'Technical Writer',
     image: '/avatars/danish.png'
   },
   {
