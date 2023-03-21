@@ -1,5 +1,6 @@
 import { atlas } from '@/data/page-data';
 import { Flex, Center, Heading, Badge, Box, Text, Image } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const AtlasSection = () => {
   return (
@@ -18,17 +19,21 @@ const AtlasSection = () => {
             direction="column"
             justify="center"
             alignItems="center">
-            <Image src="/logo.png" alt="atlas logo" w={{ base: '100px', md: '200px' }} />
-            <Heading color="accent_yellow" fontSize={{ md: '7xl', base: '5xl' }} fontWeight="300">
-              atlas.
-            </Heading>
+            <Link href="https://1drv.ms/u/s!Apo4TvaGVjtKjzqxh0gNcA__v6IS?e=Su24MB" target="_blank">
+              <Image
+                src="/app-qr.png"
+                alt="atlas logo"
+                w={{ base: '200px', md: '300px' }}
+                borderRadius={15}
+              />
+            </Link>
           </Flex>
         </Box>
         <Box w={{ base: '100vw', md: '50vw' }} bgColor="#000000">
           <Center h="100vh">
             <Flex direction="column" gap={5} mx="50px">
-              <Badge w="max-content" size="xl" colorScheme="green">
-                Coming Soon
+              <Badge w="max-content" size="xl" colorScheme="red">
+                New
               </Badge>
               <Text fontSize={{ md: '3xl', base: '2xl' }} fontWeight="300">
                 {atlas.description}

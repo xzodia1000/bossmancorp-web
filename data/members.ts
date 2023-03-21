@@ -11,37 +11,37 @@ export const team = [
   },
   {
     name: 'Suhail Ahmed',
-    title: 'Documentation Lead',
+    title: 'Documentation & Marketing Lead',
     image: '/avatars/suhail.png'
   },
   {
     name: 'Yousuf Aboushady',
-    title: 'QA Tester',
+    title: 'Marketing Associate',
     image: '/avatars/yousuf.png'
   },
   {
     name: 'Jad Fakhoury',
-    title: 'Office Boy',
+    title: 'Marketing Associate',
     image: '/avatars/jad.png'
   },
   {
     name: 'Danish',
-    title: 'Technical Writer',
+    title: 'Researcher',
     image: '/avatars/danish.png'
   },
   {
     name: 'Hassan Ahmed',
-    title: '',
+    title: 'Marketing Associate',
     image: '/avatars/hassan.png'
   },
   {
     name: 'Zayd Aslam',
-    title: 'Developer',
+    title: 'Researcher',
     image: '/avatars/zayd.png'
   },
   {
     name: 'Nidal Arafath',
-    title: 'Web Lead',
+    title: 'Web Lead & Full-Stack Developer',
     image: '/avatars/nidal.jpg'
   }
 ];

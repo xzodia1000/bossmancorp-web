@@ -1,14 +1,4 @@
-import {
-  Flex,
-  Box,
-  Container,
-  Heading,
-  Text,
-  Spacer,
-  Divider,
-  chakra,
-  color
-} from '@chakra-ui/react';
+import { Flex, Box, Container, Heading, Text, Spacer, Divider, chakra } from '@chakra-ui/react';
 import {
   IconBrandFacebook,
   IconBrandInstagram,
